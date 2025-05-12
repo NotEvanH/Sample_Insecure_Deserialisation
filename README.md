@@ -1,5 +1,5 @@
 # Pickle Deserialization RCE
-## This is how this script simulates a possible Insecure Deserilization attack.
+## This is how this script simulates a possible Insecure Deserilization attack. Also, I forgot that a double underscore bolds so my bad.
 
 Firstly, pickle is a python module for serializing and deserializing Python objects. Secondly, base64 is used to encode hex in base64 because why not.
 
