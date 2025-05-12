@@ -22,3 +22,13 @@ class VeryCoolClass:
 ```
 
 Afterwards, the class is serialized and then deserialized. When the object is deserialized, the __reduce__() function is triggered running arbitrary code.
+
+```
+serialised = pickle.dumps(VeryCoolClass())
+encoded = base64.b64encode(serialised)
+
+print(encoded)
+
+decoded = base64.b64decode(encoded)
+decoded = pickle.loads(decoded)
+```
